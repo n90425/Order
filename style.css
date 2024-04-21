@@ -1,0 +1,149 @@
+body {
+  font-family: "IBM Plex Sans KR", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  height: 300vh;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.top_header {
+  display: grid;
+  justify-content: flex-end;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+.top_header ul {
+  margin-right: 60px;
+}
+
+.top_header li {
+  margin: 10px;
+  font-size: 12px;
+  color: #a6a6a6;
+}
+
+.main_header {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: space-between;
+}
+
+.main_header h1 {
+  font-size: 35px;
+  font-weight: 900;
+  font-style: italic;
+  margin-left: 60px;
+}
+
+.main_header ul {
+  margin-right: 50px;
+}
+
+.main_header li {
+  margin: 17px;
+  font-size: 19px;
+}
+
+.main_header li:first-child {
+  font-weight: bold;
+}
+
+.bottom_header ul {
+  margin-left: 45px;
+}
+
+.bottom_header li {
+  margin: 14px;
+}
+
+.wrapper {
+  min-height: 100%;
+  position: relative;
+}
+
+footer {
+  width: 100%;
+  bottom: 0px;
+  position: absolute;
+}
+
+hr {
+  height: 1px;
+  border: 0;
+  background-color: #cecece;
+}
+
+.top_footer,
+.main_footer {
+  display: grid;
+  justify-content: space-between;
+}
+
+.top_footer {
+  grid-template-columns: repeat(2, 50%);
+}
+
+.service,
+.return_addre {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-content: left;
+  margin: 20px 0px;
+}
+
+.service > h4,
+.return_addre > h4 {
+  font-size: 22px;
+  font-weight: 900;
+  color: #404040;
+}
+
+.service > h4 {
+  margin-left: 40px;
+}
+
+.service_time {
+  display: flex;
+  flex-direction: column;
+}
+
+.service span,
+.return_addre span {
+  font-size: 12px;
+  margin: 5px 20px;
+  color: #a6a6a6;
+}
+
+.main_footer {
+  grid-template-columns: repeat(4, 25%);
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+}
+
+.footer > h4 {
+  font-size: 17px;
+  font-weight: 900;
+  color: #404040;
+  margin-bottom: 10px;
+}
+
+.footer li {
+  font-size: 12px;
+  margin-top: 10px;
+  color: #a6a6a6;
+}
