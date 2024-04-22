@@ -102,8 +102,12 @@ hr {
   display: grid;
   grid-auto-flow: column;
   align-items: center;
-  justify-content: left;
+  justify-content: center;
   margin: 20px 0px;
+}
+
+.service {
+  margin-left: 15%;
 }
 
 .service > h4,
@@ -113,9 +117,6 @@ hr {
   color: #404040;
 }
 
-.service > h4 {
-  margin-left: 40px;
-}
 
 .service_time {
   display: flex;
@@ -131,6 +132,7 @@ hr {
 
 .main_footer {
   grid-template-columns: repeat(4, 25%);
+  margin-left: 5%;
 }
 
 .footer {
